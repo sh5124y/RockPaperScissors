@@ -10,7 +10,7 @@ int main(void)
 
 	while (1)
 	{
-		printf("가위(0), 바위(1), 보(2) 중 선택하세요 >>");
+		printf("가위(0), 바위(1), 보(2) 중 선택하세요. >>");
 		scanf_s("%d", &player);
 		com = rand() % 3;
 
