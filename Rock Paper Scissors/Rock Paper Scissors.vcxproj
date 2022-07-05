@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="Rock Paper Scissors.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

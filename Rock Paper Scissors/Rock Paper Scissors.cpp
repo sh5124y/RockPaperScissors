@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "Console.h"
 
 int g_result[3][3] =
 {
@@ -12,6 +13,12 @@ int g_result[3][3] =
 	//	º¸ 2
 	{-1,1,0}
 };
+
+void printXY(int _x, int _y, char* _text)
+{
+	GotoXY(_x, _y);
+	printf(_text);
+}
 
 int main(void) 
 {
